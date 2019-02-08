@@ -1,0 +1,76 @@
+/*-------------------------------------------*\
+    GLOBAL STYLES
+\*-------------------------------------------*/
+
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
+h2, h3, h4, h5, h6, p, ol {
+    margin: 0;
+}
+
+
+/*-------------------------------------------*\
+    HEADER
+\*-------------------------------------------*/
+
+header .titleName {
+    text-align: center;
+    border-bottom: 4px solid #4DAC5A;
+}
+
+header .introduction p {
+    font-style: italic;
+    text-align: center;
+}
+
+header .introduction img {
+    margin: 2em auto;
+    display: block;
+}
+
+/*-------------------------------------------*\
+    BODY
+\*-------------------------------------------*/
+
+@media only screen and (min-width: 600px) {
+    section.content {
+        display: flex;
+    }
+}
+
+section.content > article {
+    flex: 1;
+    border: 2px solid red;
+    padding: 0.5em;
+}
+
+.content .articleHeader {
+    text-align: center;
+}
+
+.aboutMeSection {
+     margin: 0.8em 0;
+ }
+
+.aboutMeSection > h5 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.contactMeSection > form {
+    border: 1px solid lightGrey;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.contactMeSection > form > div.input {
+    margin: 1em 0;
+}
+
+.contactMeSection > form > div.button {
+    text-align: center;
+}
